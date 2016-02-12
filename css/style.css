@@ -1,0 +1,90 @@
+.font-pixel {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.font-retro {
+  font-family: 'Fugaz One', cursive;
+}
+
+.font-mono {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.gray {
+  color: dimgray;
+}
+
+body {
+  background-color: tan;
+  min-width: 350px;
+}
+
+.calc-outline {
+  width: 300px;
+  background-color: seashell;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px 5px dimgray inset;
+}
+
+.padding {
+  padding: 40px;
+}
+
+.lcd {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 3px gray inset;
+}
+
+.button {
+  border-radius: 12px;
+  background-color: dimgray;
+  color: white;
+  border: lightgray 1px solid;
+  width: 50px;
+  height: 40px;
+  font-size: 1.25em;
+  margin: 3px;
+  padding: 0px;
+  box-shadow: 0px 0px 6px 1px Gainsboro inset;
+  outline: none;
+}
+
+.button:hover {
+  color: white;
+}
+
+.button:focus {
+  outline: none;
+  color: white;
+}
+
+.button:active {
+  outline: none !important;
+  background-color: #585858;
+  box-shadow: 0px 0px 6px 1px #ababab inset;
+  color: lightgray;
+}
+
+.red {
+  background-color: brown;
+  box-shadow: 0px 0px 6px 1px PaleVioletRed inset;
+}
+
+.red:active {
+  background-color: #941919;
+  box-shadow: 0px 0px 6px 1px #ca6082 inset;
+}
+
+.align {
+  padding: 0px;
+}
+
+.large {
+  position: relative;
+  left: -4px;
+  height: 86px;
+}
